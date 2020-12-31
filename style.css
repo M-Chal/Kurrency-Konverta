@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+select{
+  border: 0;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.Answer{
+  padding-top: 15px;
+  padding-right: 100px;
+}
+
+#in{
+  margin-top: 12px;
+}
+
+.col{
+  width:100px;
+}
+
+.foot{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}

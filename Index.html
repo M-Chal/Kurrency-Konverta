@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kurrency Konverta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kurrency Konverta</h1>
+      <div class="row main">
+        <div class="col-3 main">
+          <p>From</p>
+        </div>
+        <div class="col-3 main">
+          <p>-></p>
+        </div>
+        <div class="col-3 main">
+          <p>To</p>
+        </div>
+      </div>
+      <div class="row main">
+        <div class="col-3 main">
+          <select name="From" id="from">
+            <option value="EUR">€</option>
+            <option value="GBP">£</option>
+            <option value="USD">$</option>
+          </select>
+          <form action="">
+            <input type="text" id="in"value="">
+          </form>
+        </div>
+        <div class="col-3 main">
+
+        </div>
+        <div class="col-3 main">
+          <select name="To" id="to">
+            <option value="EUR">€</option>
+            <option value="GBP">£</option>
+            <option value="USD">$</option>
+          </select>
+          <p class="Answer" id="ans"></p>
+        </div>
+      </div>
+      <div class="row main">
+        <div class="col-3 main"></div>
+        <div class="col-3 main"><button class="btn btn-primary" id="conv">Konvert</button></div>
+        <div class="col-3 main"></div>
+      </div>
+    </div>
+    <div class="foot">
+      <p id="footer">Last Updated: </p>
+    </div>
+    <script src="app.js"></script>
+
+  </body>
+</html>
